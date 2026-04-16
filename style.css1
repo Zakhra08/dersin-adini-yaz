@@ -1,0 +1,43 @@
+body { 
+    background-color: dimgray; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+} 
+.container { 
+    width: 500px; 
+    height: 400px; 
+    position: relative; 
+} 
+.box { 
+    position: absolute; 
+    width: 150px; 
+    height: 150px; 
+} 
+.green { 
+    background-color: green; 
+    top: 50px; 
+    left: 50px; 
+    z-index: 2; 
+} 
+.blue{ 
+    background-color: blue; 
+    top: 50px; 
+    left: 220px; 
+    z-index: 1; 
+} 
+.yellow { 
+    background-color: yellow; 
+    top: 150px; 
+    left: 120px; 
+    z-index: 2; 
+} 
+.red { 
+    background-color: red; 
+    top: 150px; 
+    left: 290px; 
+    z-index: 2; 
+
+} 
