@@ -1,0 +1,40 @@
+body { 
+    background: #eee; 
+    font-family: Arial; 
+} 
+.container { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    width: 900px; 
+    margin: 50px auto; 
+} 
+.card { 
+    background: #fff; 
+    padding: 10px; 
+    border-radius: 5px;
+    text-align: center; 
+    position: relative; 
+} 
+.card img { 
+    width: 100%; 
+    border-radius: 5px; 
+} 
+.card button { 
+    position: absolute; 
+    bottom: 60px; 
+    right: 10px; 
+    background: red; 
+    color: #fff; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+}
+.card h3 { 
+    margin: 10px 0 5px; 
+} 
+.card p { 
+    color: green; 
+    font-weight: bold; 
+
+} 
